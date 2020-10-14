@@ -172,3 +172,21 @@ a {
 .total > button {
   flex: 1;
 }
+
+/*checkout form*/
+form {
+  width: 100%;
+}
+.form-container {
+  padding: 0;
+  list-style-type: none;
+  width: 100%;
+}
+.form-container li {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+input {
+  padding: 1rem;
+}
