@@ -22,7 +22,7 @@ export const filterProducts = (products, size) => (dispatch) => {
 
 export const sortProducts = (filteredProducts, sort) => (dispatch) => {
     const sortedProducts = filteredProducts.slice();
-    if(sort === "") {
+    if(sort === "latest") {
         sortedProducts.sort((a, b) => (a._id > b._id ? 1 : -1))
     } else {
         sortedProducts.sort((a, b) => (
