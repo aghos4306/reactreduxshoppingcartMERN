@@ -19,7 +19,7 @@ import {filterProducts, sortProducts} from '../actions/productActions';
                     </select>
                 </div>
                 <div className="filter-size">Filter {" "}
-                    <select value={this.props.size} onChange={(e) =>this.props.filterProducts(this.props.product, e.target.value)}>
+                    <select value={this.props.size} onChange={(e) =>this.props.filterProducts(this.props.products, e.target.value)}>
                         <option value="">ALL</option>
                         <option value="XS">XS</option>
                         <option value="S">S</option>
